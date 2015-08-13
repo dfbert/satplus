@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
 #top span {
-  color: white;
+  color: #8D1E1B;
   font-size: 39px;
   font-family: 'Quicksand', sans-serif;
   margin-left: 10px;
@@ -19,14 +19,14 @@ body {
     background-repeat: no-repeat;
     background-size: auto 84%;
     background-position: center center;
-    background-color: rgb(76, 76, 76);
+    background-color: rgb(247, 247, 247);
     padding: 14px 5px;
     border-bottom: 1px solid rgb(195, 65, 26);
 }
 #content {
     width: calc(100% - 50px);
     height: 100%;
-    background: rgb(213, 213, 213);
+    background: rgb(58, 58, 58);
     padding: 25px;
 }
 #full {
@@ -44,7 +44,7 @@ h1 {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 22px;
 	line-height: 22px;
-	color: rgb(66, 66, 66);
+	color: rgb(197, 197, 197);
 }
 #contact div {
 	float: left;
