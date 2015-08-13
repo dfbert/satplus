@@ -212,19 +212,19 @@ display:block;
 padding:0px;
 margin:0px;
 }
-.list-nav ul li a{
-color:#FFFFFF;
-font-size:15px;
-font-weight:300;
-width:22%;
-display:inline-block;
-float:left;
-list-style:none;
-padding:16.5% 0 3% 0;
-margin:2% 0 2% 8%;
-height:auto;
-background-color: rgba(68, 68, 68, 0.97);
-border-radius: 14px;
+.list-nav ul li a {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 300;
+    width: 16%;
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 16.5% 0 3% 0;
+    margin: 2% 0 2% 7%;
+    height: auto;
+    background-color: rgb(60, 60, 60);
+    border-radius: 14px;
 }
 .list-nav-small{
 padding:20px 5%;
@@ -539,16 +539,12 @@ width:14%; margin:0 3%;
 /* 6. PAGES LAYOUT */
 /*===============================================*/	
 .homepage{
-background: url(22.jpg) no-repeat center center;
+background: #E3E3E3 url(bg.png) no-repeat bottom center;
 background-attachment:fixed;
--webkit-background-size: 100%; 
--moz-background-size: 100%;
--o-background-size: 100%;
-background-size: 100%;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover; 
-background-size: cover;
+-webkit-background-size: 100% auto; 
+-moz-background-size: 100% auto;
+-o-background-size: 100% auto;
+background-size: 100% auto;
 }
 #pages_maincontent{
 width:90%;
@@ -1251,6 +1247,9 @@ padding:0px 15px;
 /* 14. MEDIA QUERIES */
 /*===============================================*/	
 @media screen and (max-width: 480px) {
+.lock-icon a{
+width: 91% !important;
+}
 .minimal_intro{
 font-size:40px;
 color:#FFFFFF;
@@ -1319,8 +1318,9 @@ padding:40px 0 0 0px;
 width:100%;
 }
 .list-nav ul li a{
-width:26%;
+width:19%;
 margin:2% 0 2% 5%;
+    font-size: 10px;
 }
 .home-icon a{
 background-position: 50% 15px;
